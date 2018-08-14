@@ -4,6 +4,8 @@ import Item from './Item';
 import './ItemPage.css';
 
 
+// for some reason the function wont pass a prop? 
+
 function ItemPage({items, onAddToCart}) {
   return (
     <ul className="ItemPage-items">
